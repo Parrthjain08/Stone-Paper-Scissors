@@ -13,6 +13,7 @@ def game():
     you=int(input("Your choice: "))
     Computer=computer()
     print(f"Computer's choice: {dict[Computer]}  and   Your choice: {dict[you]}")
+    
     if Computer==you:
             print("It's a tie!")
     elif (you==1 and Computer==2):
