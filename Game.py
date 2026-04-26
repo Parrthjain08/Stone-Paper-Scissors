@@ -1,3 +1,5 @@
+from Dictionary import dict
+From Computer import computer
 def game():
     print("Welcome to the Stone-Paper-Scissors Game!")
     print("Enter your choice: ")
